@@ -1,42 +1,28 @@
-# Step 1: Create two strings
-# str1 = "Hello"
-# str2 = "World"
 
-# # Step 2: Concatenate the strings
-# result = str1 + " " + str2
+# Demonstrating different number data types in Python
 
-# # Step 3: Print the concatenated string
-# print("Concatenated String:", result)
+# Integer
+a = 10
+print("a =", a)
+print("Type of a:", type(a))  # <class 'int'>
 
-# # Step 4: Ask user for starting and ending index
-# start_index = int(input("Enter the start index for substring: "))
-# end_index = int(input("Enter the end index for substring: "))
+# Float
+b = 3.14159
+print("\nb =", b)
+print("Type of b:", type(b))  # <class 'float'>
 
-# # Step 5: Get the substring from the concatenated string
-# substring = result[start_index:end_index]
+# Complex
+c = 2 + 3j
+print("\nc =", c)
+print("Type of c:", type(c))  # <class 'complex'>
 
-# # Step 6: Print the substring
-# print("Substring:", substring)
+# More examples
+# Large integer
+d = 12345678901234567890
+print("\nd =", d)
+print("Type of d:", type(d))  # Still int in Python
 
-
-
-# second program 
-# Integer example
-int_num = 10
-print("Integer Value:", int_num)
-print("Type of int_num:", type(int_num))
-
-# Float example
-float_num = 3.14
-print("\nFloat Value:", float_num)
-print("Type of float_num:", type(float_num))
-
-# Complex number example
-complex_num = 2 + 3j
-print("\nComplex Number:", complex_num)
-print("Type of complex_num:", type(complex_num))
-
-# You can also extract real and imaginary parts
-print("Real part of complex_num:", complex_num.real)
-print("Imaginary part of complex_num:", complex_num.imag)
-
+# Scientific notation (float)
+e = 1.2e3  # 1.2 * 10^3 = 1200.0
+print("\ne =", e)
+print("Type of e:", type(e))  # <class 'float'>

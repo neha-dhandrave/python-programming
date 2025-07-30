@@ -1,16 +1,17 @@
-# Import necessary modules
-import datetime
-import pytz
+# Program 3
 
-# Define IST timezone
-india_timezone = pytz.timezone('Asia/Kolkata')
+# 1. Creating strings
+string1 = "Hello"
+string2 = "World"
 
-# Get current date and time in IST
-now = datetime.datetime.now(india_timezone)
+# 2. Concatenating strings
+full_string = string1 + " " + string2
 
-# Format date string like "Sun May 29 02:26:23 IST 2017"
-formatted_date = now.strftime("%a %b %d %H:%M:%S IST %Y")
+# 3. Printing the concatenated string
+print("Concatenated String:", full_string)
 
-# Print the formatted date
-print(formatted_date)
+# 4. Accessing a substring
+# Let's say we want to extract "World"
+substring = full_string[6:11]  # Indexing starts at 0
 
+print("Substring:", substring)
